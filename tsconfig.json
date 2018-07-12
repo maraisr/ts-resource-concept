@@ -1,0 +1,13 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es3",
+		"outDir": "dist",
+		"lib": ["dom", "es2015", "es2016", "es2017"],
+		"experimentalDecorators": true,
+		"listFiles": true
+	},
+	"include": ["src/"],
+	"files": ["src/index.ts"]
+}
